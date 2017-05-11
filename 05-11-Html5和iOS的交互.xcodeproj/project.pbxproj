@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9F033161EC446B200F0EB9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F033151EC446B200F0EB9C /* main.m */; };
+		E9F033191EC446B200F0EB9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F033181EC446B200F0EB9C /* AppDelegate.m */; };
+		E9F0331C1EC446B200F0EB9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0331B1EC446B200F0EB9C /* ViewController.m */; };
+		E9F0331F1EC446B200F0EB9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F0331D1EC446B200F0EB9C /* Main.storyboard */; };
+		E9F033211EC446B200F0EB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F033201EC446B200F0EB9C /* Assets.xcassets */; };
+		E9F033241EC446B200F0EB9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F033221EC446B200F0EB9C /* LaunchScreen.storyboard */; };
+		E9F0332F1EC446B200F0EB9C /* _5_11_Html5_iOS___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0332E1EC446B200F0EB9C /* _5_11_Html5_iOS___Tests.m */; };
+		E9F0333A1EC446B200F0EB9C /* _5_11_Html5_iOS___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F033391EC446B200F0EB9C /* _5_11_Html5_iOS___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9F0332B1EC446B200F0EB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F033091EC446B200F0EB9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F033101EC446B200F0EB9C;
+			remoteInfo = "05-11-Html5和iOS的交互";
+		};
+		E9F033361EC446B200F0EB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F033091EC446B200F0EB9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F033101EC446B200F0EB9C;
+			remoteInfo = "05-11-Html5和iOS的交互";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9F033111EC446B200F0EB9C /* 05-11-Html5和iOS的交互.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-11-Html5和iOS的交互.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F033151EC446B200F0EB9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9F033171EC446B200F0EB9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9F033181EC446B200F0EB9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9F0331A1EC446B200F0EB9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9F0331B1EC446B200F0EB9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9F0331E1EC446B200F0EB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9F033201EC446B200F0EB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F033231EC446B200F0EB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9F033251EC446B200F0EB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F0332A1EC446B200F0EB9C /* 05-11-Html5和iOS的交互Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-11-Html5和iOS的交互Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F0332E1EC446B200F0EB9C /* _5_11_Html5_iOS___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_11_Html5_iOS___Tests.m"; sourceTree = "<group>"; };
+		E9F033301EC446B200F0EB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F033351EC446B200F0EB9C /* 05-11-Html5和iOS的交互UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-11-Html5和iOS的交互UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F033391EC446B200F0EB9C /* _5_11_Html5_iOS___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_11_Html5_iOS___UITests.m"; sourceTree = "<group>"; };
+		E9F0333B1EC446B200F0EB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F0330E1EC446B200F0EB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F033271EC446B200F0EB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F033321EC446B200F0EB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9F033081EC446B200F0EB9C = {
+			isa = PBXGroup;
+			children = (
+				E9F033131EC446B200F0EB9C /* 05-11-Html5和iOS的交互 */,
+				E9F0332D1EC446B200F0EB9C /* 05-11-Html5和iOS的交互Tests */,
+				E9F033381EC446B200F0EB9C /* 05-11-Html5和iOS的交互UITests */,
+				E9F033121EC446B200F0EB9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F033121EC446B200F0EB9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F033111EC446B200F0EB9C /* 05-11-Html5和iOS的交互.app */,
+				E9F0332A1EC446B200F0EB9C /* 05-11-Html5和iOS的交互Tests.xctest */,
+				E9F033351EC446B200F0EB9C /* 05-11-Html5和iOS的交互UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F033131EC446B200F0EB9C /* 05-11-Html5和iOS的交互 */ = {
+			isa = PBXGroup;
+			children = (
+				E9F033171EC446B200F0EB9C /* AppDelegate.h */,
+				E9F033181EC446B200F0EB9C /* AppDelegate.m */,
+				E9F0331A1EC446B200F0EB9C /* ViewController.h */,
+				E9F0331B1EC446B200F0EB9C /* ViewController.m */,
+				E9F0331D1EC446B200F0EB9C /* Main.storyboard */,
+				E9F033201EC446B200F0EB9C /* Assets.xcassets */,
+				E9F033221EC446B200F0EB9C /* LaunchScreen.storyboard */,
+				E9F033251EC446B200F0EB9C /* Info.plist */,
+				E9F033141EC446B200F0EB9C /* Supporting Files */,
+			);
+			path = "05-11-Html5和iOS的交互";
+			sourceTree = "<group>";
+		};
+		E9F033141EC446B200F0EB9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9F033151EC446B200F0EB9C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9F0332D1EC446B200F0EB9C /* 05-11-Html5和iOS的交互Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0332E1EC446B200F0EB9C /* _5_11_Html5_iOS___Tests.m */,
+				E9F033301EC446B200F0EB9C /* Info.plist */,
+			);
+			path = "05-11-Html5和iOS的交互Tests";
+			sourceTree = "<group>";
+		};
+		E9F033381EC446B200F0EB9C /* 05-11-Html5和iOS的交互UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F033391EC446B200F0EB9C /* _5_11_Html5_iOS___UITests.m */,
+				E9F0333B1EC446B200F0EB9C /* Info.plist */,
+			);
+			path = "05-11-Html5和iOS的交互UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F033101EC446B200F0EB9C /* 05-11-Html5和iOS的交互 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F0333E1EC446B200F0EB9C /* Build configuration list for PBXNativeTarget "05-11-Html5和iOS的交互" */;
+			buildPhases = (
+				E9F0330D1EC446B200F0EB9C /* Sources */,
+				E9F0330E1EC446B200F0EB9C /* Frameworks */,
+				E9F0330F1EC446B200F0EB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-11-Html5和iOS的交互";
+			productName = "05-11-Html5和iOS的交互";
+			productReference = E9F033111EC446B200F0EB9C /* 05-11-Html5和iOS的交互.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9F033291EC446B200F0EB9C /* 05-11-Html5和iOS的交互Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F033411EC446B200F0EB9C /* Build configuration list for PBXNativeTarget "05-11-Html5和iOS的交互Tests" */;
+			buildPhases = (
+				E9F033261EC446B200F0EB9C /* Sources */,
+				E9F033271EC446B200F0EB9C /* Frameworks */,
+				E9F033281EC446B200F0EB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F0332C1EC446B200F0EB9C /* PBXTargetDependency */,
+			);
+			name = "05-11-Html5和iOS的交互Tests";
+			productName = "05-11-Html5和iOS的交互Tests";
+			productReference = E9F0332A1EC446B200F0EB9C /* 05-11-Html5和iOS的交互Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9F033341EC446B200F0EB9C /* 05-11-Html5和iOS的交互UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F033441EC446B200F0EB9C /* Build configuration list for PBXNativeTarget "05-11-Html5和iOS的交互UITests" */;
+			buildPhases = (
+				E9F033311EC446B200F0EB9C /* Sources */,
+				E9F033321EC446B200F0EB9C /* Frameworks */,
+				E9F033331EC446B200F0EB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F033371EC446B200F0EB9C /* PBXTargetDependency */,
+			);
+			name = "05-11-Html5和iOS的交互UITests";
+			productName = "05-11-Html5和iOS的交互UITests";
+			productReference = E9F033351EC446B200F0EB9C /* 05-11-Html5和iOS的交互UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F033091EC446B200F0EB9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "杨林贵";
+				TargetAttributes = {
+					E9F033101EC446B200F0EB9C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H37ALLURH4;
+					};
+					E9F033291EC446B200F0EB9C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H37ALLURH4;
+						TestTargetID = E9F033101EC446B200F0EB9C;
+					};
+					E9F033341EC446B200F0EB9C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H37ALLURH4;
+						TestTargetID = E9F033101EC446B200F0EB9C;
+					};
+				};
+			};
+			buildConfigurationList = E9F0330C1EC446B200F0EB9C /* Build configuration list for PBXProject "05-11-Html5和iOS的交互" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F033081EC446B200F0EB9C;
+			productRefGroup = E9F033121EC446B200F0EB9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F033101EC446B200F0EB9C /* 05-11-Html5和iOS的交互 */,
+				E9F033291EC446B200F0EB9C /* 05-11-Html5和iOS的交互Tests */,
+				E9F033341EC446B200F0EB9C /* 05-11-Html5和iOS的交互UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F0330F1EC446B200F0EB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F033241EC446B200F0EB9C /* LaunchScreen.storyboard in Resources */,
+				E9F033211EC446B200F0EB9C /* Assets.xcassets in Resources */,
+				E9F0331F1EC446B200F0EB9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F033281EC446B200F0EB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F033331EC446B200F0EB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F0330D1EC446B200F0EB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F0331C1EC446B200F0EB9C /* ViewController.m in Sources */,
+				E9F033191EC446B200F0EB9C /* AppDelegate.m in Sources */,
+				E9F033161EC446B200F0EB9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F033261EC446B200F0EB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F0332F1EC446B200F0EB9C /* _5_11_Html5_iOS___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F033311EC446B200F0EB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F0333A1EC446B200F0EB9C /* _5_11_Html5_iOS___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9F0332C1EC446B200F0EB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F033101EC446B200F0EB9C /* 05-11-Html5和iOS的交互 */;
+			targetProxy = E9F0332B1EC446B200F0EB9C /* PBXContainerItemProxy */;
+		};
+		E9F033371EC446B200F0EB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F033101EC446B200F0EB9C /* 05-11-Html5和iOS的交互 */;
+			targetProxy = E9F033361EC446B200F0EB9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9F0331D1EC446B200F0EB9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F0331E1EC446B200F0EB9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9F033221EC446B200F0EB9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F033231EC446B200F0EB9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F0333C1EC446B200F0EB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9F0333D1EC446B200F0EB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F0333F1EC446B200F0EB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-11-Html5和iOS的交互/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guodiantong.-5-11-Html5-iOS---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9F033401EC446B200F0EB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-11-Html5和iOS的交互/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guodiantong.-5-11-Html5-iOS---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9F033421EC446B200F0EB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-11-Html5和iOS的交互Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guodiantong.-5-11-Html5-iOS---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-11-Html5和iOS的交互.app/05-11-Html5和iOS的交互";
+			};
+			name = Debug;
+		};
+		E9F033431EC446B200F0EB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-11-Html5和iOS的交互Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guodiantong.-5-11-Html5-iOS---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-11-Html5和iOS的交互.app/05-11-Html5和iOS的交互";
+			};
+			name = Release;
+		};
+		E9F033451EC446B200F0EB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-11-Html5和iOS的交互UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guodiantong.-5-11-Html5-iOS---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-11-Html5和iOS的交互";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E9F033461EC446B200F0EB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-11-Html5和iOS的交互UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guodiantong.-5-11-Html5-iOS---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-11-Html5和iOS的交互";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F0330C1EC446B200F0EB9C /* Build configuration list for PBXProject "05-11-Html5和iOS的交互" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F0333C1EC446B200F0EB9C /* Debug */,
+				E9F0333D1EC446B200F0EB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F0333E1EC446B200F0EB9C /* Build configuration list for PBXNativeTarget "05-11-Html5和iOS的交互" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F0333F1EC446B200F0EB9C /* Debug */,
+				E9F033401EC446B200F0EB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9F033411EC446B200F0EB9C /* Build configuration list for PBXNativeTarget "05-11-Html5和iOS的交互Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F033421EC446B200F0EB9C /* Debug */,
+				E9F033431EC446B200F0EB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9F033441EC446B200F0EB9C /* Build configuration list for PBXNativeTarget "05-11-Html5和iOS的交互UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F033451EC446B200F0EB9C /* Debug */,
+				E9F033461EC446B200F0EB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F033091EC446B200F0EB9C /* Project object */;
+}
