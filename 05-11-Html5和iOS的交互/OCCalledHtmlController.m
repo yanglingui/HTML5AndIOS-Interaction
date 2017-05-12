@@ -104,6 +104,10 @@
     //<!--通过native关联代理协议-->
      self.context[@"native"] = self;
     
+    //这里通知通过Html中的方法名传参调用
+     JSValue *value = [self.context evaluateScript:@"test1('12');"];
+     NSNumber *number = [value toNumber];
+     NSLog(@"%@",number);
 }
 
 @end
