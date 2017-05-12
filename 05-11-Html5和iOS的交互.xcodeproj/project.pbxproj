@@ -15,6 +15,11 @@
 		E9F033241EC446B200F0EB9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F033221EC446B200F0EB9C /* LaunchScreen.storyboard */; };
 		E9F0332F1EC446B200F0EB9C /* _5_11_Html5_iOS___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0332E1EC446B200F0EB9C /* _5_11_Html5_iOS___Tests.m */; };
 		E9F0333A1EC446B200F0EB9C /* _5_11_Html5_iOS___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F033391EC446B200F0EB9C /* _5_11_Html5_iOS___UITests.m */; };
+		E9F033491EC4472C00F0EB9C /* HtmlCalledOCController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F033481EC4472C00F0EB9C /* HtmlCalledOCController.m */; };
+		E9F0334C1EC4474800F0EB9C /* OCCalledHtmlController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0334B1EC4474800F0EB9C /* OCCalledHtmlController.m */; };
+		E9F0334E1EC44A2B00F0EB9C /* index1.html in Resources */ = {isa = PBXBuildFile; fileRef = E9F0334D1EC44A2B00F0EB9C /* index1.html */; };
+		E9F033501EC46E6D00F0EB9C /* index2.html in Resources */ = {isa = PBXBuildFile; fileRef = E9F0334F1EC46E6D00F0EB9C /* index2.html */; };
+		E9F033521EC4723400F0EB9C /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = E9F033511EC4723400F0EB9C /* test.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		E9F033351EC446B200F0EB9C /* 05-11-Html5和iOS的交互UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-11-Html5和iOS的交互UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F033391EC446B200F0EB9C /* _5_11_Html5_iOS___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_11_Html5_iOS___UITests.m"; sourceTree = "<group>"; };
 		E9F0333B1EC446B200F0EB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F033471EC4472C00F0EB9C /* HtmlCalledOCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlCalledOCController.h; sourceTree = "<group>"; };
+		E9F033481EC4472C00F0EB9C /* HtmlCalledOCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlCalledOCController.m; sourceTree = "<group>"; };
+		E9F0334A1EC4474800F0EB9C /* OCCalledHtmlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCalledHtmlController.h; sourceTree = "<group>"; };
+		E9F0334B1EC4474800F0EB9C /* OCCalledHtmlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCalledHtmlController.m; sourceTree = "<group>"; };
+		E9F0334D1EC44A2B00F0EB9C /* index1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index1.html; sourceTree = "<group>"; };
+		E9F0334F1EC46E6D00F0EB9C /* index2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index2.html; sourceTree = "<group>"; };
+		E9F033511EC4723400F0EB9C /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,13 @@
 				E9F033181EC446B200F0EB9C /* AppDelegate.m */,
 				E9F0331A1EC446B200F0EB9C /* ViewController.h */,
 				E9F0331B1EC446B200F0EB9C /* ViewController.m */,
+				E9F033471EC4472C00F0EB9C /* HtmlCalledOCController.h */,
+				E9F033481EC4472C00F0EB9C /* HtmlCalledOCController.m */,
+				E9F0334D1EC44A2B00F0EB9C /* index1.html */,
+				E9F0334A1EC4474800F0EB9C /* OCCalledHtmlController.h */,
+				E9F0334B1EC4474800F0EB9C /* OCCalledHtmlController.m */,
+				E9F033511EC4723400F0EB9C /* test.js */,
+				E9F0334F1EC46E6D00F0EB9C /* index2.html */,
 				E9F0331D1EC446B200F0EB9C /* Main.storyboard */,
 				E9F033201EC446B200F0EB9C /* Assets.xcassets */,
 				E9F033221EC446B200F0EB9C /* LaunchScreen.storyboard */,
@@ -246,9 +265,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F033521EC4723400F0EB9C /* test.js in Resources */,
 				E9F033241EC446B200F0EB9C /* LaunchScreen.storyboard in Resources */,
 				E9F033211EC446B200F0EB9C /* Assets.xcassets in Resources */,
 				E9F0331F1EC446B200F0EB9C /* Main.storyboard in Resources */,
+				E9F0334E1EC44A2B00F0EB9C /* index1.html in Resources */,
+				E9F033501EC46E6D00F0EB9C /* index2.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +297,9 @@
 			files = (
 				E9F0331C1EC446B200F0EB9C /* ViewController.m in Sources */,
 				E9F033191EC446B200F0EB9C /* AppDelegate.m in Sources */,
+				E9F0334C1EC4474800F0EB9C /* OCCalledHtmlController.m in Sources */,
 				E9F033161EC446B200F0EB9C /* main.m in Sources */,
+				E9F033491EC4472C00F0EB9C /* HtmlCalledOCController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

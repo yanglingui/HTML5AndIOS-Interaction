@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<br>
+<br>
+<!--通过native关联代理协议-->
+<button onclick="native.calledOcAction2();">OCCalledHtml方法</button>
+
+
+<br>
+<br>
+
+<div id="item1" style="background-color: aqua">计算的结果为:</div>
+
+<script>
+
+   function getOcPargram(pragram){
+       
+      var result = ocCalledHtml(pragram);
+      document.getElementById("item1").innerText = "OC端输入的值为："+pragram+"计算的结果为："+result;
+      //返回一个结果，以便OC端能够通过JSValue对象获取返回的值。
+      return result;
+   }
+
+     function ocCalledHtml(n){
+        
+        return n*n;
+    }
+</script>
+
+</body>
+</html>

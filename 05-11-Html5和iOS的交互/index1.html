@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .name{
+
+            display: inline;
+            font-size: 15px;
+        }
+    .button2{
+        display: block;
+    }
+    </style>
+
+</head>
+<body>
+
+<br>
+<input id = "input" placeholder="请输入数字" type="number">
+
+<br>
+<br>
+<div>
+<button onclick="clickAction();">HtmlCalledOC方法</button>
+<br/>
+<!--<input type="button" value="HtmlCalledOC方法" onclick="native.native.callOcAction(input.value);" />-->
+<br/>
+
+</div>
+
+<br>
+
+<div class="name">值为:</div>
+<span id="result">0</span>
+
+<br>
+<br>
+
+<button onclick="testAction1();">testAction1方法</button>
+
+<button class="button2" onclick="testAction2('testAction2传递的参数1','参数2');">testAction2方法</button>
+
+
+<script>
+    function clickAction(){
+        native.callOcAction(input.value);
+    }
+    
+    function showRerult(result){
+
+         document.getElementById("result").innerText = result;
+    }
+     function testAction1(){
+         test1("测试1传递的参数");
+    }
+   function test1(pragram){
+       
+   }
+
+</script>
+
+
+</body>
+</html>
